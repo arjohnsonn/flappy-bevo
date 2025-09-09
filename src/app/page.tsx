@@ -74,7 +74,7 @@ export default function Home() {
       setBirdVelocity((prevVelocity) => prevVelocity + gravity);
 
       setPipes((prevPipes) => {
-        let newPipes = prevPipes
+        const newPipes = prevPipes
           .map((pipe) => ({
             ...pipe,
             x: pipe.x - pipeSpeed,
