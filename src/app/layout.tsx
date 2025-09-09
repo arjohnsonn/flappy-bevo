@@ -24,15 +24,19 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/bevo.png",
-        width: 400,
-        height: 400,
+        width: 200,
+        height: 200,
         alt: "Bevo the Longhorn Mascot",
       },
     ],
   },
+  other: {
+    "theme-color": "#BF5700",
+    "msapplication-TileColor": "#BF5700",
+  },
   twitter: {
-    card: "summary_large_image",
-    title: "Flappy Bevo - Texas Longhorns Game",
+    card: "summary",
+    title: "Flappy Bevo",
     description: "Play Flappy Bevo! Guide Bevo through UT towers. Hook 'em Horns!",
     images: ["/bevo.png"],
   },
